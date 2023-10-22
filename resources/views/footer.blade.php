@@ -4,9 +4,9 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Quick Links</h4>
-                    <a class="btn btn-link" href="about.php">About Us</a>
-                    <a class="btn btn-link" href="contact.php">Contact Us</a>
-                    <a class="btn btn-link" href="">Shop</a>
+                    <a class="btn btn-link" href="{{url('/about')}}">About Us</a>
+                    <a class="btn btn-link" href="{{url('/contact')}}">Contact Us</a>
+                    <a class="btn btn-link" href="https://shop.techrolk.com/">Shop</a>
                     <a class="btn btn-link" href="">Shipping Details</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -59,10 +59,10 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Terms & Conditions</a>
-                            <a href="">Privacy Policy</a>
+                            <a href="{{url('/')}}">Home</a>
+                            <a href="{{url('/cookies')}}">Cookies</a>
+                            <a href="{{url('/terms')}}">Terms & Conditions</a>
+                            <a href="{{url('/privacy')}}">Privacy Policy</a>
                         </div>
                     </div>
                 </div>
@@ -79,10 +79,10 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./lib/wow/wow.min.js"></script>
-    <script src="../lib/easing/easing.min.js"></script>
-    <script src="../lib/waypoints/waypoints.min.js"></script>
-    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Javascript -->
-    <script src="../js/main.js"></script>
+    <script src="js/main.js"></script>

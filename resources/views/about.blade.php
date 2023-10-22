@@ -7,7 +7,7 @@
     $page = 'about';
 ?>
 
-    <?php include 'header.php'; ?>
+    @include('header')
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="About Us | TechRoLK" />
@@ -314,7 +314,7 @@
         </div>
     </div>
 
-    <?php include 'footer.php'; ?>
+    @include('footer')
 </body>
 
 </html>

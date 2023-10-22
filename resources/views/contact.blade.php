@@ -29,7 +29,7 @@
         <meta property="twitter:description" content="" />
         <meta property="twitter:image" content="" />
 
-        <?php include 'header.php'; ?>
+        @include('header')
 
 
         <style>
@@ -124,7 +124,7 @@
 
 
 
-    <?php include 'footer.php'; ?>
+    @include('footer')
 
     </body>
 

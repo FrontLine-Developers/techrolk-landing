@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="google-site-verification" content="jYZeftnqpxLLjE_8cKEhxIWBAB0ZD5EGWEF2z-3maLU" />
+
 
     <?php
     $page = 'home';
@@ -48,7 +48,7 @@
                             <h1 class="display-3 text-white animated slideInDown">Drone Component Collection</h1>
                             <p class="fs-5 text-white mb-4 pb-2">Premium quality Electronic parts for your FPV & RC
                                 needs </p>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Shop Now</a>
+                            <a href="https://shop.techrolk.com/" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                             <h1 class="display-3 text-white animated slideInDown">Prototyping & 3D Designing</h1>
                             <p class="fs-5 text-white mb-4 pb-2">We undertake custom projects related to mechatronics,
                                 robotics and drones.</p>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Learn More</a>
+                            <a href="{{url('/services')}}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                     creating prototypes for your unique needs. Whether it's a groundbreaking tech concept or a new
                     innovation, we're here to turn your vision into reality. Contact Us to learn more about how
                     we can help you transform your ideas into tangible prototypes.</p>
-                <a class="btn btn-primary py-3 px-5 mt-2" href="contact.php">Contact Us Now</a>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="{{url('/contact')}}">Contact Us Now</a>
             </div>
         </div>
     </div>
@@ -160,7 +160,7 @@
             <div class="col-lg-7 col-md-6">
                 <div class="row g-3">
                     <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                        <a class="position-relative d-block overflow-hidden" href="">
+                        <a class="position-relative d-block overflow-hidden" href="{{url('/services#graphic-designing')}}">
                             <img class="img-fluid" src="content/img/img-home/img-services/graphic design-min.webp"
                                 alt="" style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
@@ -170,7 +170,7 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                        <a class="position-relative d-block overflow-hidden" href="">
+                        <a class="position-relative d-block overflow-hidden" href="{{url('/services#3d-cad')}}">
                             <img class="img-fluid" src="content/img/img-home/img-services/cad.jpg" alt=""
                                 style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
@@ -180,7 +180,7 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                        <a class="position-relative d-block overflow-hidden" href="">
+                        <a class="position-relative d-block overflow-hidden" href="{{url('/services#3d-printing')}}">
                             <img class="img-fluid" src="content/img/img-home/3d-printing2-techro.jpg" alt=""
                                 style="width: auto;">
                             <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
@@ -192,7 +192,7 @@
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                <a class="position-relative d-block h-100 overflow-hidden" href="">
+                <a class="position-relative d-block h-100 overflow-hidden" href="{{url('/services#drone-solutions')}}">
                     <img class="img-fluid position-absolute w-100 h-100"
                         src="content/img/img-home/img-services/drone.jpg" alt="" style="object-fit: cover;">
                     <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
@@ -201,7 +201,7 @@
                 </a>
             </div>
             <br><br><br><br>
-            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="services.php"
+            <center><a class="btn btn-primary py-3 px-5 mt-2 wow zoomIn" href="{{url('/services')}}"
                     data-wow-delay="0.1s">Explore More</a></center>
 
         </div>
@@ -281,7 +281,7 @@
                 <h1 class="mb-4">Premium Quality 3D Printing</h1>
                 <p class="mb-4">We have wide range of materials and Colors with wide quality options to select. With 3
                     outlets covering all of Sri Lanka, we can ship to your door step.</p>
-                <a class="btn btn-primary py-3 px-5 mt-2" href="about.php">Contact Us Now</a>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="{{url('/contact')}}">Contact Us Now</a>
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@
     <?php
     $page = 'services';
 ?>
-    <?php include 'header.php'; ?>
+    @include('header')
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="Services | TechRoLK Engineering Solutions" />
@@ -58,7 +58,7 @@
     <!-- Header End -->
 
 
-    <div class="container-xxl py-5" id="DRONE">
+    <div class="container-xxl py-5" id="drone-solutions">
 
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -70,7 +70,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-services/drone-services-techrolk.webp" alt="DRONE"
+                            <img class="img-fluid position-absolute w-100 h-100" src="content/img/img-services/drone-services-techrolk.webp" alt="Drone-Solutions"
                                 style="object-fit: cover;">
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                                 <li>Multi Payload UAV’s/Drones</li>
                             </ul>
                         </p>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="drone-solutions.php">Explore</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="{{url('/Services-DroneSolutions')}}">Explore</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
 
 
 
-    <div class="container-xxl py-5" id="GRAPHICS">
+    <div class="container-xxl py-5" id="graphic-designing">
 
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -195,7 +195,7 @@
     </div>
 
 
-    <?php include 'footer.php'; ?>
+    @include('footer')
 </body>
 
 </html>

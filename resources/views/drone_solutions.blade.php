@@ -5,8 +5,11 @@
 
 
     <title>Drone Solutions</title>
+    <?php
+    $page = 'services';
+?>
 
-    <?php include 'header.php'; ?>
+    @include('header')
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="Drone Solutions | TechRoLK" />
@@ -106,7 +109,7 @@
 
 
     </div>
-    <?php include 'footer.php'; ?>
+    @include('footer')
 </body>
 
 </html>

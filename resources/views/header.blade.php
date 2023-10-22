@@ -5,11 +5,11 @@
 
 
     <!-- Favicon -->
-    <link href="content/icons/logo 70.png" rel="icon">
-    <link rel="icon" href="content/icons/logo 70.png" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="content/icons/logo 180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="content/icons/logo 192.png">
-    <meta name="msapplication-TileImage" content="content/icons/logo 70.png">
+    <link href="content/icons/logo-70.png" rel="icon">
+    <link rel="icon" href="content/icons/logo-70.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="content/icons/logo-180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="content/icons/logo-192.png">
+    <meta name="msapplication-TileImage" content="content/icons/logo-70.png">
     <meta name="msapplication-TileColor" content="#FF4747">
 
     <!-- Google Fonts -->
@@ -109,7 +109,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.php" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
+        <a href="{{url('/')}}" class="navbar-brand d-flex align-items-center px-1 px-lg-4">
             <img src="content/icons/logo.png" alt="" class="img-header">
             <h5 class="m-0 text-primary h5-header" style="font-family: 'Arimo', sans-serif;">&nbsp; &nbsp; TechRoLK <br>&nbsp; &nbsp; Engineering Solutions</h5>
         </a>
@@ -118,16 +118,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.php"
+                <a href="{{url('/')}}"
                     class="nav-item nav-link <?php if ($page === 'home') echo 'active'; ?> nav-link pulse">Home</a>
-                <a href="services.php"
+                <a href="{{url('/services')}}"
                     class="nav-item nav-link nav-link pulse <?php if ($page === 'services') echo 'active'; ?>">Services</a>
-                <a href="about.php"
+                <a href="{{url('/about')}}"
                     class="nav-item nav-link <?php if ($page === 'about') echo 'active'; ?> nav-link pulse">About Us</a>
-                <a href="contact.php"
+                <a href="{{url('/contact')}}"
                     class="nav-item nav-link <?php if ($page === 'contact') echo 'active'; ?> nav-link pulse">Contact</a>
 
-                <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Shop<i
+                <a href="https://shop.techrolk.com/" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Shop<i
                         class="fa fa-arrow-right ms-3"></i></a>
 
             </div>
