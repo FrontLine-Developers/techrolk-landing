@@ -48,7 +48,7 @@
                             <h1 class="display-3 text-white animated slideInDown">Drone Component Collection</h1>
                             <p class="fs-5 text-white mb-4 pb-2">Premium quality Electronic parts for your FPV & RC
                                 needs </p>
-                            <a href="https://shop.techrolk.com/" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Shop Now</a>
+                            <a href="https://techrolk.com/shop" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -77,8 +77,8 @@
 
 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
     <h6 class="section-title bg-white text-center text-primary px-3"></h6>
-    <h1 class="mb-5">Who Are We?</h1>
-    <P class="mb-5">We are specialized in UAV / FPV drone designing, manufacturing , component resale and 3D printing</P>
+    <h1 class="mb-3">Who Are We?</h1>
+    <P class="mb-3">We are specialized in UAV / FPV drone designing, manufacturing , component resale and 3D printing</P>
 </div>
 
 <!-- Counter Start -->
@@ -120,6 +120,8 @@
         </div>
     </div>
 </div>
+
+<center><a class="btn btn-primary py-3 px-5 mt-2 wow fadeInUp" data-wow-delay="0.1s" href="https://techrolk.com/shop">Visit Our Shop Now</a></center>
 <!-- Counter End -->
 
 
