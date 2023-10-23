@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Services</title>
+    <title>Services | TechRoLK Engineering Solutions</title>
     <?php
     $page = 'services';
 ?>

@@ -4,7 +4,7 @@
 <head>
 
     <head>
-        <title>Contact</title>
+        <title>Contact  | TechRoLK Engineering Solutions</title>
         <?php
     $page = 'contact';
 ?>
