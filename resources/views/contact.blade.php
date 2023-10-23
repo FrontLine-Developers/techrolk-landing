@@ -28,9 +28,6 @@
         <meta property="twitter:title" content="Contact | TechRoLK" />
         <meta property="twitter:description" content="" />
         <meta property="twitter:image" content="" />
-
-        @include('header')
-
             <!-- Favicon -->
     <link href="content/icons/logo-70.png" rel="icon">
     <link rel="icon" href="content/icons/logo-70.png" type="image/x-icon">
@@ -38,6 +35,9 @@
     <link rel="icon" type="image/png" sizes="192x192" href="content/icons/logo-192.png">
     <meta name="msapplication-TileImage" content="content/icons/logo-70.png">
     <meta name="msapplication-TileColor" content="#FF4747">
+        @include('header')
+
+
 
         <style>
             .contact-page-header {
