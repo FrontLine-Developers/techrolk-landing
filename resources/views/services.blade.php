@@ -87,7 +87,7 @@
                                 <li>Multi Payload UAV’s/Drones</li>
                             </ul>
                         </p>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="{{url('/Services-DroneSolutions')}}">Explore</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="{{url('/services-drone-solutions')}}">Explore</a>
                     </div>
                 </div>
             </div>
