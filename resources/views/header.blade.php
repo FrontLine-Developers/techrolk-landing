@@ -35,6 +35,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
+    <link rel="manifest" href="{{ asset('manifest.json') }}">
 
     <style>
         ::selection {
