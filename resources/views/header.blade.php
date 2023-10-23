@@ -36,12 +36,6 @@
     <link href="css/style.css" rel="stylesheet">
 
 
-    <!-- PWA -->
-    <link rel="manifest" href="manifest.json">
-
-
-
-
     <style>
         ::selection {
             background-color: #FF4747;

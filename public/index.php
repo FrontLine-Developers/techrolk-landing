@@ -52,4 +52,8 @@ $response = $kernel->handle(
     $request = Request::capture()
 )->send();
 
+if ($request->is('offline')) {
+    $response = response()->view('offline');
+}
+
 $kernel->terminate($request, $response);

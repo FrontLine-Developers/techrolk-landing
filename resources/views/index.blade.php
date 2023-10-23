@@ -10,10 +10,10 @@
 
 @include('header')
 
-    <title>TechRoLK Engineering Solutions</title>
+    <title>TechRoLK Engineering Solutions | Build Your Imagination</title>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="TechRoLK Engineering Solutions" />
+    <meta name="title" content="TechRoLK Engineering Solutions | Build Your Imagination" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="FrontLine Developers" />
@@ -21,14 +21,14 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="" />
-    <meta property="og:title" content="TechRoLK Engineering Solutions" />
+    <meta property="og:title" content="TechRoLK Engineering Solutions | Build Your Imagination" />
     <meta property="og:description" content="" />
     <meta property="og:image" content="" />
 
     <!-- Twitter / WA / TG -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="" />
-    <meta property="twitter:title" content="TechRoLK Engineering Solutions" />
+    <meta property="twitter:title" content="TechRoLK Engineering Solutions | Build Your Imagination" />
     <meta property="twitter:description" content="" />
     <meta property="twitter:image" content="" />
 

@@ -37,6 +37,10 @@ Route::get('/services#3d-printing', function () {
     return view('Services#3d-printing');
 });
 
+Route::get('/services-drone-solutions', function () {
+    return view('drone_solutions');
+});
+
 Route::get('/about', function () {
     return view('about');
 });
@@ -45,6 +49,14 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/services-drone-solutions', function () {
-    return view('drone_solutions');
+Route::get('/cookies', function () {
+    return view('cookies');
+});
+
+Route::get('/terms', function () {
+    return view('terms');
+});
+
+Route::get('/privacy', function () {
+    return view('privacy');
 });

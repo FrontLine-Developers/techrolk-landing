@@ -4,10 +4,10 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Quick Links</h4>
+                    <a class="btn btn-link" href="{{url('/services')}}">Services</a>
                     <a class="btn btn-link" href="{{url('/about')}}">About Us</a>
                     <a class="btn btn-link" href="{{url('/contact')}}">Contact Us</a>
                     <a class="btn btn-link" href="https://techrolk.com/shop">Shop</a>
-                    <a class="btn btn-link" href="">Shipping Details</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
