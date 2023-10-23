@@ -5,6 +5,7 @@
 
 
     <!-- Favicon -->
+    <link rel="shortcut icon" href="content/icons/favicon.ico" type="image/x-icon">
     <link href="content/icons/logo-70.png" rel="icon">
     <link rel="icon" href="content/icons/logo-70.png" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="content/icons/logo-180.png">
